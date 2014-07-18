@@ -5,7 +5,7 @@ var answer = Math.floor((Math.random() * 100) + 1);
 var previousGuess;
 
 // Global for number of guesses
-var numberOfGuesses = 1;
+var numberOfGuesses = 0;
 
 // Validate as normal integer
 function isNormalInteger(str) {
